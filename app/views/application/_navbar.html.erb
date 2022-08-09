@@ -1,8 +1,6 @@
 <nav class="navbar bg-light">
   <div class="container-fluid">
-    <%= link_to articles_path do %>
-      <p class="navbar-brand">Wikinimous</p>
-    <% end %>
+    <%= link_to "Wikinimous", articles_path, class: 'navbar-brand' %>
     <%= link_to new_article_path do %>
       <button class="btn btn-outline-success" type="submit">New article</button>
     <% end %>
